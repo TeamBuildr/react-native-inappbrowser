@@ -1,6 +1,6 @@
 {
-  "name": "react-native-inappbrowser-reborn",
-  "version": "3.6.3",
+  "name": "@teambuildr/react-native-inappbrowser-reborn",
+  "version": "3.6.4",
   "description": "InAppBrowser for React Native",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,13 @@
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:proyecto26/react-native-inappbrowser.git"
+    "url": "git+https://github.com/TeamBuildr/react-native-inappbrowser.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/proyecto26/react-native-inappbrowser/issues"
+    "url": "https://github.com/teambuildr/react-native-inappbrowser/issues"
   },
   "keywords": [
     "react-native",
@@ -36,7 +39,7 @@
     "ChromeTabsManagerActivity"
   ],
   "author": "Juan David Nicholls Cardona",
-  "homepage": "https://github.com/proyecto26/react-native-inappbrowser",
+  "homepage": "https://github.com/teambuildr/react-native-inappbrowser",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.56"
@@ -55,6 +58,6 @@
   },
   "collective": {
     "type": "opencollective",
-    "url": "https://opencollective.com/proyecto26"
+    "url": "https://opencollective.com/teambuildr"
   }
 }
